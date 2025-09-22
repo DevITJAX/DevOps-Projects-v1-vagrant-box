@@ -12,24 +12,24 @@ A minimal Vagrant setup for an Ubuntu Server VM to practice DevOps workflows and
 - Git
 
 ## Files
-- Vagrantfile – VM definition
-- .gitignore – ignores .vagrant/, *.box, logs
+- `Vagrantfile` – VM definition
+- `.gitignore` – ignores `.vagrant/`, `*.box`, logs
 
 ## Quick start
-`ash
+```bash
 # From this directory
 vagrant up
 vagrant ssh
-`
+```
 
 ## Common tasks
-- Halt VM: agrant halt
-- Destroy VM: agrant destroy -f
-- Reprovision: agrant up --provision
+- Halt VM: `vagrant halt`
+- Destroy VM: `vagrant destroy -f`
+- Reprovision: `vagrant up --provision`
 
 ## Notes
 - Default synced folder is the project directory
-- Customize CPU, RAM, and box in Vagrantfile
+- Customize CPU, RAM, and box in `Vagrantfile`
 
 ## License
 MIT (add a LICENSE file if needed)
